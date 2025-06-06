@@ -13,16 +13,23 @@ const About = () => {
                   Electronics & Communication Engineer
                 </h3>
                 <p className="text-foreground/80 mb-6 leading-relaxed">
-                  I'm a passionate Electronics and Communication Engineering student at VIT Vellore, 
-                  with a strong foundation in hardware design, embedded systems, and RF technologies. 
-                  My expertise spans from PCB design using KiCad to FPGA-based development and 
-                  innovative projects like FreshCheck.
+                  I'm Aniket Jha, an Electronics and Communication Engineering student at VIT Vellore 
+                  with a strong passion for embedded systems, hardware design, and intelligent sensing. 
+                  I work at the intersection of hardware and software—building systems that integrate 
+                  sensors, data analysis, and real-world applications.
                 </p>
                 
                 <p className="text-foreground/80 mb-6 leading-relaxed">
-                  I thrive on solving complex engineering challenges and turning theoretical concepts 
-                  into practical solutions. My goal is to contribute to the advancement of communication 
-                  technologies and embedded systems through innovative design and development.
+                  My projects include a smart fruit freshness detection system using acoustic, gas, and 
+                  moisture sensors; PCB design using KiCad for industrial applications; and FPGA-based 
+                  RF front-end development. I'm also gaining experience with cloud platforms like AWS 
+                  and building AI-powered solutions using Python and deep learning frameworks.
+                </p>
+
+                <p className="text-foreground/80 mb-6 leading-relaxed">
+                  I'm driven by a goal to create reliable, scalable hardware systems that solve real-world 
+                  problems. If you're working on cutting-edge embedded tech or hardware-software integration, 
+                  I'd love to collaborate.
                 </p>
                 
                 <div className="flex flex-wrap gap-2">

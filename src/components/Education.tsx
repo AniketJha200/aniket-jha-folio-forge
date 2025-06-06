@@ -49,6 +49,9 @@ const Education = () => {
                   <h4 className="text-lg font-medium text-tech-teal-400 mb-2">
                     Physics, Chemistry, Mathematics (PCM)
                   </h4>
+                  <p className="text-foreground/80 mb-2">
+                    Velammal Bodhi Campus, Ponneri
+                  </p>
                   <p className="text-tech-blue-400 font-medium mb-3">
                     2022
                   </p>
@@ -68,6 +71,9 @@ const Education = () => {
                   <h3 className="text-xl font-semibold text-tech-orange-400 mb-2">
                     High School Education
                   </h3>
+                  <p className="text-foreground/80 mb-2">
+                    TVIS Velammal Vidyalaya
+                  </p>
                   <p className="text-tech-blue-400 font-medium mb-3">
                     2020
                   </p>
