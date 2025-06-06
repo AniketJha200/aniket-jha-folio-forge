@@ -1,11 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-import ghPages from "vite-plugin-gh-pages";
+import { ghPages } from "vite-plugin-gh-pages";
 import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(async ({ mode }) => {
-  const plugins = [react(), ghPages.default()];
+  const plugins = [react(), ghPages()];
   
   if (mode === "development") {
     const { componentTagger } = await import("lovable-tagger");
