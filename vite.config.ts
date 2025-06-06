@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(async ({ mode }) => {
-  const plugins = [react(), ghPages()];
+  const plugins = [react(), ghPages.default()];
   
   if (mode === "development") {
     const { componentTagger } = await import("lovable-tagger");
