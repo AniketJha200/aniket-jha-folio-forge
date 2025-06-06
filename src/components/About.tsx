@@ -38,13 +38,12 @@ const About = () => {
               </div>
               
               <div className="relative">
-                <div className="w-full h-80 bg-gradient-to-br from-tech-blue-600/20 to-tech-teal-600/20 rounded-xl flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 bg-tech-orange-600/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-4xl font-bold text-tech-orange-400">AJ</span>
-                    </div>
-                    <p className="text-foreground/60">Professional Photo</p>
-                  </div>
+                <div className="w-full h-80 rounded-xl overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/da34956c-a7cb-48fb-a8e8-744d6d1ba1c0.png"
+                    alt="Aniket Jha - Electronics & Communication Engineer"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
