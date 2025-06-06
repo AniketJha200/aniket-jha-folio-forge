@@ -10,8 +10,8 @@ const Education = () => {
             {/* Timeline line */}
             <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-tech-teal-600"></div>
             
-            {/* Education item */}
-            <div className="relative flex items-center mb-8 animate-slide-in-left">
+            {/* B.Tech ECE */}
+            <div className="relative flex items-center mb-12 animate-slide-in-left">
               <div className="absolute left-2 md:left-1/2 w-4 h-4 bg-tech-teal-600 rounded-full transform -translate-x-1/2"></div>
               
               <div className="ml-12 md:ml-0 md:w-1/2 md:pr-8 md:text-right">
@@ -26,7 +26,7 @@ const Education = () => {
                     Vellore Institute of Technology (VIT), Vellore
                   </p>
                   <p className="text-tech-blue-400 font-medium mb-3">
-                    2021 - 2025 (Expected)
+                    2022 - 2026 (Expected)
                   </p>
                   <p className="text-foreground/70 text-sm">
                     Relevant Coursework: Digital Signal Processing, VLSI Design, 
@@ -36,8 +36,47 @@ const Education = () => {
                 </div>
               </div>
             </div>
-            
-            {/* Additional education items can be added here */}
+
+            {/* Higher Secondary (PCM) */}
+            <div className="relative flex items-center mb-12 animate-slide-in-right">
+              <div className="absolute left-2 md:left-1/2 w-4 h-4 bg-tech-teal-600 rounded-full transform -translate-x-1/2"></div>
+              
+              <div className="ml-12 md:ml-0 md:w-1/2 md:pl-8 md:ml-auto">
+                <div className="glass-card p-6">
+                  <h3 className="text-xl font-semibold text-tech-orange-400 mb-2">
+                    Higher Secondary Education
+                  </h3>
+                  <h4 className="text-lg font-medium text-tech-teal-400 mb-2">
+                    Physics, Chemistry, Mathematics (PCM)
+                  </h4>
+                  <p className="text-tech-blue-400 font-medium mb-3">
+                    2022
+                  </p>
+                  <p className="text-foreground/70 text-sm">
+                    Specialized in Science stream with focus on Physics, Chemistry, and Mathematics
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* High School */}
+            <div className="relative flex items-center mb-8 animate-slide-in-left">
+              <div className="absolute left-2 md:left-1/2 w-4 h-4 bg-tech-teal-600 rounded-full transform -translate-x-1/2"></div>
+              
+              <div className="ml-12 md:ml-0 md:w-1/2 md:pr-8 md:text-right">
+                <div className="glass-card p-6">
+                  <h3 className="text-xl font-semibold text-tech-orange-400 mb-2">
+                    High School Education
+                  </h3>
+                  <p className="text-tech-blue-400 font-medium mb-3">
+                    2020
+                  </p>
+                  <p className="text-foreground/70 text-sm">
+                    Completed secondary education with strong foundation in core subjects
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
